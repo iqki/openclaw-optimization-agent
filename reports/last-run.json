@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-05-02T17:46:38.949Z",
+  "plan": {
+    "totalScenarios": 1200,
+    "scenarioTypes": [
+      "long_context_dialogue",
+      "multi_step_tool_use",
+      "memory_retrieval",
+      "multi_agent_coordination"
+    ],
+    "hardwareProfiles": [
+      "entry_laptop",
+      "mid_pc",
+      "low_mid_server"
+    ],
+    "dailyTokenBudget": 50000000,
+    "runWindowDays": 30
+  },
+  "metrics": {
+    "baseline": {
+      "avgLatencyMs": 2480,
+      "p95LatencyMs": 6120,
+      "avgMemoryMb": 1840,
+      "peakMemoryMb": 3160,
+      "successRate": 0.91
+    },
+    "metadata": {
+      "scenarioCount": 1200,
+      "sampledAt": "2026-05-02T17:46:38.948Z"
+    }
+  },
+  "proposal": {
+    "title": "OpenClaw Mid/Low-end Hardware Optimization Proposal",
+    "priority": "high",
+    "hints": [
+      "Prioritize memory compaction and context truncation strategies.",
+      "Introduce async batching and reduce tool-call serialization."
+    ]
+  }
+}
