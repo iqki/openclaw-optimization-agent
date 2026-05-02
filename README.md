@@ -1,5 +1,7 @@
 # OpenClaw Optimization Agent
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![CI](https://github.com/iqki/openclaw-optimization-agent/actions/workflows/project-ci.yml/badge.svg)](https://github.com/iqki/openclaw-optimization-agent/actions)
+
 一个面向个人开发者的自动化测试与优化项目，用于提升 OpenClaw 在中低端设备上的运行表现与资源效率。
 
 ## 项目状态
