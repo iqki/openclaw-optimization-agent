@@ -1,0 +1,12 @@
+{
+  "name": "openclaw-optimization-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Automated testing and optimization agent project for OpenClaw.",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/main.js",
+    "plan": "node src/main.js --plan",
+    "report": "node src/main.js --report"
+  }
+}

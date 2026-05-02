@@ -1,0 +1,15 @@
+{
+  "tokenBudgetPerDay": 50000000,
+  "runWindowDays": 30,
+  "parallelScenarioWorkers": 24,
+  "targetHardwareProfiles": [
+    "entry_laptop",
+    "mid_pc",
+    "low_mid_server"
+  ],
+  "pipeline": {
+    "enableAutoPR": true,
+    "enableCITrigger": true,
+    "enableBottleneckAnalysis": true
+  }
+}

@@ -1,0 +1,21 @@
+name: Project CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  lint-and-plan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Print project info
+        run: |
+          echo "OpenClaw optimization project"
+          node -v
+          npm -v
