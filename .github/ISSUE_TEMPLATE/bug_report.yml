@@ -1,0 +1,34 @@
+name: Bug report
+description: Report a reproducible bug affecting tests, metrics, or optimization flow
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction Steps
+      description: Provide step-by-step reproduction.
+      placeholder: |
+        1. Run ...
+        2. Configure ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and Metrics
+      description: Include logs, error output, and key metrics.
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, CPU, memory, Node version, and hardware profile.
