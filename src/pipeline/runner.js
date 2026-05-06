@@ -17,7 +17,7 @@ export async function runPoC() {
     proposal
   };
 
-  const reportsDir = path.resolve(new URL(import.meta.url).pathname, '..', '..', 'reports');
+  const reportsDir = path.resolve(process.cwd(), 'reports');
   try {
     fs.mkdirSync(reportsDir, { recursive: true });
   } catch (e) {}
